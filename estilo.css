@@ -1,0 +1,225 @@
+
+*{ /* quintando el marguen que tiene por defecto*/
+	margin :0;
+	padding: 0;
+	
+}
+
+body{
+	background: #f5f5dc;
+	
+}
+
+/*ENCABEZADO*/
+header{
+	
+
+	/*ancho que ocupara el encabezado*/
+	width: 100%;
+
+	/*color de fondo*/
+	background: powderblue;
+
+	/*color de letra */
+	color: #808080;
+
+	/* ESPACION DEL PARGEN SUPERIO*/
+	padding-top: 10px;
+
+	/*ESPACION DEL PARGEN INFERIO*/
+	padding-bottom: 10px;
+}
+div{
+	display: inline-block;
+	margin: 0px 10px;
+	padding: 0px  10px  0px  10px
+}
+#esm{
+	margin-right: 23px
+}
+#esM{
+	margin-left: 120px;
+	margin-left: 20px;
+}
+
+
+.ima{
+
+	/*TAMAÑO DE LA IMAGEN*/
+	width: 75px;
+	
+	/*redondiando la imagen*/
+	border-radius: 75%;
+	
+	border: 3px solid #FFFFFF ;
+}
+
+.ima:hover{
+	top:3px;
+	width: 100px;
+	transition: 1s;
+}
+
+header{
+	 
+	position:sticky;
+	top: 0px;
+}
+
+
+
+
+h1{
+	
+	/** tipo de funte*/
+
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	/*tamaño de fuente */
+	font-family: 3em;
+	
+	background: powderblue;
+}
+
+header div h2{
+	background: powderblue;
+}
+
+h2{
+	/* centrando h1*/
+	text-align: center;
+
+	/** tipo de funte*/
+
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+	/*tamaño de fuente */
+	font-family: 1em;
+
+
+}
+
+section{
+	/* espacio a ocupar*/
+	 width: 80%;
+
+	 margin: 0 auto;
+
+	 background: #faebd7;
+
+	 border-style: outset;
+
+	 border-width: 10px;
+
+	border-left-color: #faebd7;
+
+	border-top-color: #f5f5dc; 
+}
+
+article{
+	/* espacion entre article*/
+	padding: 20px 0px 20px 0px;
+	
+	/*tamaño y color del margen*/
+	border-bottom: 1px dotted #dcdcdc;
+}
+
+article h2{
+	
+	float: left;
+	
+	/*tamaño y color del margen inferior */
+
+	border-bottom: 2px solid #a9a9a9;
+
+	padding-bottom: 3px;
+	 
+	 /*espacio entre linea*/
+	line-height: 1.5em;
+
+	font-size: 1em;
+
+	/*letra en mayuscula*/
+
+	text-transform: uppercase;
+
+}
+
+
+article p, article ul,article ol{
+
+	margin-left: 40%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #808080;
+	
+}
+
+article ul li , article ol li{
+	margin-left: 40px;
+	
+}
+
+a{ /* color de los enlaces a redes sociales */
+	color: #dc143c;
+
+}
+
+
+a:hover{
+	color: #ff8c00 ;
+}
+a:visited{
+	color: #ff1493;
+}
+
+article ul li{
+	/* tipo de viñeta*/
+	list-style-type: circle  ;
+
+}
+
+/*VIÑETAS PERSONALES TELEGRAN*/
+
+#tlg {
+	list-style-image: url("tlg.png" ) ;
+	
+}
+
+/*VIÑETAS PERSONALES FACEBOOK*/
+#face{
+	list-style-image: url("face.png")  ;
+	
+}
+/*VIÑETAS PERSONALES WHATSAPP*/
+#what{
+	list-style-image: url("what.png");
+	
+
+}
+
+/* ESPACIO ENTRE LAS VIÑETAS PERSONALES */
+.vine li{
+	padding : 5px;
+
+
+}
+
+#tlf{
+	color :#00ff00;
+}
+
+footer , footer p ,footer p b{
+	
+	text-align: center;
+	background: #c0c0c0 
+	
+	
+}
+
+footer {
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+	font-size: 15px;
+}
+
